@@ -8,21 +8,23 @@ parallel-jobs = 1
 
 [YouTube-Morphe]
 app-name = "YouTube"
-patches-source = "MorpheApp/morphe-patches"
+patches-source = "anddea/revanced-patches"
+patches-version = "v4.4.0-dev.3"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
-build-mode = "both"
+build-mode = "apk"
 arch = "both"
 excluded-patches = """\
   'Custom branding' \
   """
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-enable-update-checks = false
+enable-update-checks = true
 
 [Music-Morphe]
 app-name = "Music"
-patches-source = "MorpheApp/morphe-patches"
+patches-source = "anddea/revanced-patches"
+patches-version = "v4.4.0-dev.3"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
 version = "9.40.51"
@@ -38,7 +40,7 @@ enable-update-checks = true
 [Reddit-Morphe]
 app-name = "Reddit"
 rv-brand = "Morphe"
-build-mode = "both"
+build-mode = "apk"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
@@ -47,7 +49,7 @@ dpi = "120-640dpi"
 enabled = false
 
 [GooglePhotos]
-build-mode = "both"
+build-mode = "apk"
 patches-source = "RookieEnough/De-Vanced"
 rv-brand = "DeVanced"
 cli-source = "MorpheApp/morphe-cli"
@@ -68,14 +70,14 @@ enabled = false
 
 [Music]
 enabled = false
-build-mode = "both"
+build-mode = "apk"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [YouTube]
 enabled = false
-build-mode = "both"
+build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
